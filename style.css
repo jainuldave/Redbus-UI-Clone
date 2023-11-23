@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+ /* .main-container{
+    max-width: 1440px;
+    margin:0px  auto;
+ }  */
+
+ .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    text-align: center;
+    background: #fff;
+    color: black;
+    font-size: 14px;
+    max-width: 1200px;
+    margin:0px  auto;
+    height: 100px; 
+ }
+
+ .header_list ul li{
+    list-style-type: none;
+        display: inline-block;
+        margin-left: 0px;
+        padding: 20px; 
+              
+ }
+
+ .header_list ul li p{
+
+   margin-top: 5px;
+   }
+
+ .header_list ul li:hover{
+    list-style-type: none;
+        display: inline-block;
+        margin-left: 0px;
+        cursor: pointer;
+        background-color: #eee;
+        border-radius: 15px;
+        padding: 20px;
+ }
+
+
+
+ .header_right ul li{
+    list-style-type: none;
+        display: inline-block;
+        margin-left: 35px;   
+        cursor: pointer;   
+        font-size: larger;
+        font-weight: 200;
+ }
+
+
+ .hero-section{
+    background: url(./assets/HeroImage.png);
+    background-repeat: round;
+    background-size:cover;
+    width: 100%;
+    height:32.5rem;
+    position: relative;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+
+ }
+
+ .hero-section h1{
+   color: white; 
+   font-size: 32px;
+   font-weight: bolder;
+   margin: 45px 0px;
+}
+
+.booking-section{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   border-radius: 32px;
+   cursor: pointer;
+   background: rgb(255, 255, 255);
+   height: 112px;
+   width: 993px;
+   color: #4a4a4a;
+}
+.booking-blocks{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   border: 1px solid #ccc;
+   width: 270px;
+   height: 112px;
+   border-radius: 0px;
+   font-size: 14px;
+   font-weight: 200;
+}
+
+.booking-blocks-search{
+   width: 243px;
+   padding: 44px;
+   gap: 12px;
+   background: rgb(216, 78, 85);
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 24px;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   border: none;
+   border-radius: 0px 32px 32px 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
