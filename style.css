@@ -97,9 +97,9 @@
 .booking-blocks{
    display: flex;
    flex-direction: row;
-   justify-content: space-evenly;
+   justify-content: start;
    align-items: center;
-   border: 1px solid #ccc;
+   border-right: 1px solid #ccc;;
    width: 270px;
    height: 112px;
    border-radius: 0px;
@@ -108,7 +108,7 @@
 }
 
 .booking-blocks-search{
-   width: 243px;
+   width: 245px;
    padding: 44px;
    gap: 12px;
    background: rgb(216, 78, 85);
@@ -122,4 +122,20 @@
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+#fromto{
+   background-color: #fff;
+  padding: 15px;
+  border: 0.5px solid #eee;
+  border-radius: 50%;
+  margin-left: -25px;
+  border: 0.5px solid #ccc;
+   box-shadow: 2px 10px 10px #ccc;
+}
+
+#fromto:hover{
+   border: 0.5px solid #ccc;
+   box-shadow: 0px 0px 0px #ccc;
+
 }
