@@ -259,12 +259,12 @@
 }
 
 
-.offer-card img{
+.offercardimg{
    width: 4.5rem;
    border-radius: 50%;
 }
 
-.offer-card span{
+.offercardspan{
    background: rgba(255, 255, 255, 0.2);
     border-radius: 1.25rem;
     padding: 0.25rem 0.5rem;
@@ -273,7 +273,7 @@
     text-align: center;
 }
 
-.offer-card h4{
+.offercardh4{
    margin-top: 10px;
    font-size: 1rem;
     line-height: 1.5rem;
@@ -283,7 +283,7 @@
     text-overflow: ellipsis;
 }
 
-.offer-card p{
+.offercardp{
    margin-top: 10px;
    font-size: 12px;
     line-height: 1rem;
@@ -298,7 +298,7 @@
     gap: 0.75rem;
 }
 
-.offer-card h6{
+.offercardh6{
    border: 1px dashed rgb(255, 255, 255);
     border-radius: 0.25rem;
     max-width: 140px;
